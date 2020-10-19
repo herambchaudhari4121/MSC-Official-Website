@@ -6,8 +6,8 @@
 #### To Run Django server
 -First activate the virtual environment(venv) <br>
 &emsp;&emsp; . venv/bin/activate    or    source venv/bin/activate<br>
--To activate the virtual env in Windows<br>
-&emsp;&emsp; As venv is made in Ubuntu/MAC to activate it in Windows we will be using Git Bash.<br>
+-To activate the venv in Windows<br>
+&emsp;&emsp; As it was made in Ubuntu/MAC to activate it in Windows we will be using Git Bash.<br>
 &emsp;&emsp; Go in the directory venv<br>
 &emsp;&emsp;&emsp;&emsp;source ./bin/activate<br>
 -Change dir to MSC_website<br>
@@ -27,3 +27,9 @@ to load static - python manage.py collectstatic<br><br><br>
 
 #### To deactivate virtual environment
 &emsp;&emsp;  deactivate
+
+You can deactivate a virtual environment by typing “deactivate” in your shell. The exact mechanism is platform-specific and is an internal implementation detail (typically a script or shell function will be used).
+
+New in version 3.4: fish and csh activation scripts.
+
+New in version 3.8: PowerShell activation scripts installed under POSIX for PowerShell Core support.
